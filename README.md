@@ -2,6 +2,18 @@
 
 Este é um projeto React desenvolvido como parte das atividades da disciplina de Programação Web (Aula 07). Ele contempla funcionalidades como To-Do List, Contador de Cliques, Jogo da Velha, Calculadora e Buscador de CEP.
 
+## 🚀 Etapas de Desenvolvimento
+
+A construção deste projeto foi dividida em etapas correspondentes a cada funcionalidade proposta, organizadas em páginas e componentes interativos:
+
+1. **Configuração Inicial e Estrutura**: Criação do projeto base utilizando React e Vite/CRA, seguida da instalação e configuração do Tailwind CSS para estabelecer a identidade visual (tema Cyberpunk/Neo-brutalista).
+2. **Contador de Cliques (`ClickCounter.jsx`)**: Implementação de um contador básico focado no aprendizado e uso do hook `useState` para reatividade local.
+3. **Lista de Tarefas (`TodoList.jsx`)**: Desenvolvimento do *To-Do List* com gerenciamento de estado mais complexo (arrays), permitindo adicionar, marcar como concluído e remover itens.
+4. **Jogo da Velha (`TicTacToe.jsx`)**: Programação da lógica clássica do jogo da velha, trabalhando com matrizes para determinar vencedor ou empate e gerenciando de quem é o turno de jogo.
+5. **Calculadora (`Calculator.jsx`)**: Criação da interface e da lógica de uma calculadora, manipulando strings e números para realizar operações matemáticas básicas de forma fluida.
+6. **Buscador de CEP (`CepFinder.jsx`)**: Integração com uma API externa (ViaCEP) utilizando requisições assíncronas (com `fetch` ou `axios`) para retornar dados de um endereço completo.
+7. **Navegação e Layout (`Header.jsx`)**: Criação de um menu de navegação e agrupamento das funcionalidades desenvolvidas para que o usuário possa acessar cada componente de forma simples e direta.
+
 ## 🎨 Escolhas de Estilização e Elementos
 
 A interface do projeto foi estilizada utilizando o **Tailwind CSS** com uma abordagem estética temática inspirada no estilo *Cyberpunk/Neo-brutalista* (foco em contrastes altos, elementos tecnológicos e referência visual a obras como *Akira*).
