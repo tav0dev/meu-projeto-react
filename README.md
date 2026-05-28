@@ -1,3 +1,29 @@
+# Meu Projeto React
+
+Este é um projeto React desenvolvido como parte das atividades da disciplina de Programação Web (Aula 07). Ele contempla funcionalidades como To-Do List, Contador de Cliques, Jogo da Velha, Calculadora e Buscador de CEP.
+
+## 🎨 Escolhas de Estilização e Elementos
+
+A interface do projeto foi estilizada utilizando o **Tailwind CSS** com uma abordagem estética temática inspirada no estilo *Cyberpunk/Neo-brutalista* (foco em contrastes altos, elementos tecnológicos e referência visual a obras como *Akira*).
+
+### 🛠️ Configurações do Tailwind (`tailwind.config.js`)
+Para alcançar esse visual, o tema base do Tailwind foi estendido com as seguintes customizações:
+- **Cores (Tema):** Foram criadas variáveis de cores exclusivas como o `akiraRed` (`#E22B29`) e o `akiraBlue` (`#3B82F6`), além de padronizar o `background` para um tom bem escuro (`#101010`).
+- **Tipografia:** Uso da fonte monoespaçada **Space Mono** (`font-mono`) para fortalecer a identidade de interface sistêmica, e **Inter** (`font-sans`) para legibilidade.
+- **Sombras Neo-brutalistas:** Sombras sólidas e sem desfoque (ex: `neo`, `neo-hover`, `neo-cyan`), que criam uma sensação de botões e cards saltando rígidos para fora da tela.
+
+### 🎭 Efeitos Customizados (`index.css`)
+Regras utilitárias personalizadas foram injetadas para construir a identidade visual complexa que o Tailwind padrão não cobriria:
+- **Padrão de Fundo (Grid):** A tag `body` recebeu `radial-gradient` e `linear-gradient` para simular uma malha/grid sutil ao fundo.
+- **Efeito Glitch (`.text-glitch`):** Textos com sombras duplas (`text-shadow` vermelho e ciano) e animações contínuas de `clip-path` para simular distorções visuais de hologramas.
+- **Containers Chanfrados (`.neo-container`):** Uso de `clip-path: polygon(...)` para "cortar" as pontas de caixas e modais, saindo do formato puramente retangular.
+- **Faixas de Sinalização (`.bg-caution` e `.bg-caution-red`):** Texturas listradas (preto e branco ou vermelho e escuro) remetendo a faixas de perigo industrial.
+- **Scrollbar Personalizado:** A classe `.akira-scrollbar` sobrescreve a barra de rolagem do navegador para combinar com as cores `akiraRed` e fundo escuro.
+
+Essa escolha de design (em contraste com componentes prontos, como Material UI ou Bootstrap) permitiu criar uma atmosfera imersiva, moderna e de alto impacto visual.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
